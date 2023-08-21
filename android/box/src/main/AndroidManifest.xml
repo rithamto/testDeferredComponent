@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.example.test1.box">
+    package="com.example.test.box"
+    android:isFeatureSplit="true">
 
     <dist:module
         dist:instant="false"

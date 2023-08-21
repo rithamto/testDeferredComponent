@@ -2,5 +2,6 @@
 <resources>
 
     <string name="boxName">box</string>
+    <string name="title_box">Module Title</string>
 </resources>
 
