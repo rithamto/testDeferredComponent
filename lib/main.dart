@@ -11,6 +11,18 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return SomeWidget();
+    return MaterialApp(
+      home: Scaffold(
+        body: Container(
+          child: Center(child: Builder(
+            builder: (context) {
+              return ElevatedButton(
+                onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context) => const SomeWidget(),));},
+                child: const Text("press"));
+            }
+          )),
+        ),
+      ),
+    );
   }
 }

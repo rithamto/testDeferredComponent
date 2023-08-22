@@ -34,6 +34,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  video_player: ^2.7.0
+  chewie: ^1.7.0
 
 dev_dependencies:
   flutter_test:
@@ -60,6 +62,33 @@ flutter:
     - name: box
       libraries:
         - package:test1/box.dart
+        - package:chewie/src/chewie_player.dart
+        - package:chewie/src/chewie_progress_colors.dart
+        - package:chewie/src/cupertino/cupertino_controls.dart
+        - package:chewie/src/material/material_controls.dart
+        - package:chewie/src/material/material_desktop_controls.dart
+        - package:chewie/src/models/option_item.dart
+        - package:chewie/src/models/options_translation.dart
+        - package:chewie/src/models/subtitle_model.dart
+        - package:chewie/src/notifiers/player_notifier.dart
+        - package:chewie/src/player_with_controls.dart
+        - package:chewie/src/animated_play_pause.dart
+        - package:chewie/src/center_play_button.dart
+        - package:chewie/src/cupertino/cupertino_progress_bar.dart
+        - package:chewie/src/cupertino/widgets/cupertino_options_dialog.dart
+        - package:chewie/src/helpers/utils.dart
+        - package:chewie/src/material/material_progress_bar.dart
+        - package:chewie/src/material/widgets/options_dialog.dart
+        - package:chewie/src/material/widgets/playback_speed_dialog.dart
+        - package:chewie/src/helpers/adaptive_controls.dart
+        - package:provider/src/change_notifier_provider.dart
+        - package:provider/src/consumer.dart
+        - package:provider/src/listenable_provider.dart
+        - package:provider/src/provider.dart
+        - package:chewie/src/progress_bar.dart
+        - package:nested/nested.dart
+      assets:
+        - assets/testVideo.mp4
 
   # To add assets to your application, add an assets section, like this:
   # assets:
